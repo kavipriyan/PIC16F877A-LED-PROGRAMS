@@ -1,0 +1,19 @@
+#include<htc.h>
+int main()
+{
+	int i,j,num=0X00;
+	TRISB = 0;
+	char a[] = {0X80,0X40,0X20,0X10,0X08,0X04,0X02,0X01};
+	while(1)
+	{
+		num=0X00;
+		for(i=0; i<8; i++)
+		{
+			num=num+a[i];
+			PORTB=num;
+				for(j=-30000; j<=30000; j++);
+		}
+		PORTB=0;
+		for(j=-30000; j<=30000; j++);
+	}
+}

@@ -1,3 +1,11 @@
+/************************************************/
+/*  AUTHOR          :	Kavipriyan K P		*/
+/*  DATE            :	31-08-2019		*/
+/*  FILE NAME       :	LED.C			*/
+/*  DESCRIPTION     :	7-seg  programs		*/
+/************************************************/
+
+
 #include<htc.h>
 __CONFIG(0X1F7A);
 

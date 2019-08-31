@@ -1,3 +1,10 @@
+/************************************************/
+/*  AUTHOR          :	Kavipriyan K P		*/
+/*  DATE            :	31-08-2019		*/
+/*  FILE NAME       :	led9999.c		*/
+/*  DESCRIPTION     :	7-seg 0-9999 program	*/
+/************************************************/
+
 #include<htc.h>
 #define _XTAL_FREQ 20000000
 __CONFIG(FOSC_HS & WDTE_OFF & PWRTE_OFF & BOREN_ON & LVP_OFF);
